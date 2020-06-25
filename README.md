@@ -18,4 +18,6 @@ The Django project for this application is already created. There is an `api` ap
 
 Django REST Framework has already been installed and added to `INSTALLED_APPS`, although no other setup has been done.
 
+You will need to run `cp booklist/.env.sample booklist/.env` to set started.
+
 You should test your API as you are building it. We recommend using Insomnia to build requests you can run over and over.
