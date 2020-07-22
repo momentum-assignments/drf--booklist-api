@@ -21,3 +21,12 @@ Django REST Framework has already been installed and added to `INSTALLED_APPS`, 
 You will need to run `cp booklist/.env.sample booklist/.env` to set started.
 
 You should test your API as you are building it. We recommend using Insomnia to build requests you can run over and over.
+
+## Stretch goals
+
+If you get finished with all of the above, what should you do? Here are some ideas:
+
+- Add a search endpoint for finding books by title, author, or the contents of notes.
+- Make a "timeline" endpoint per user. This endpoint would show all notes for that user in reverse creation order. Each note would include the title and authors for the book as well. The intention of this endpoint is to make a reading blog for the user.
+  - If you implement this, adding the ability for each user to turn it on or off is a good idea, as is making individual notes public or private.
+  - This endpoint does not require authentication and is read-only.
